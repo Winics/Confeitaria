@@ -161,6 +161,10 @@ label {
         height: 280px;
     }
 
+    #sobre-a-confeitaria .row>* {
+        margin-top: 20px;
+    }
+
     #noticias .card {
         height: 770px;
     }

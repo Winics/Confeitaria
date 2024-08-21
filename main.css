@@ -1,0 +1,207 @@
+.logo-cabecalho {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    background-color: rgb(254, 133, 168);
+    border-radius: 15px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: white;
+    color: rgb(254, 133, 168);
+}
+
+#cabecalho .nav .nav-link {
+    color: white;
+}
+
+.logo-cabecalho h1,
+.logo-cabecalho h1:hover {
+    color: white;
+    font-size: xx-large;
+}
+
+.title-designer {
+    font-family: Pacifico, cursive;
+}
+
+.title-colored {
+    color: rgb(254, 133, 168);
+}
+
+#noticias,
+#contato {
+    background-color: rgba(254, 133, 168, 0.5);
+    border-top: 2.5px dashed white;
+    border-bottom: 2.5px dashed white;
+}
+
+#noticias h2,
+#cardapio h2,
+#contato h2.text-center {
+    font-size: 40px;
+    background-color: white;
+    padding: 8px 0;
+    border-radius: 15px;
+}
+
+#noticias .card {
+    margin: 40px 0;
+}
+
+#noticias .card:hover,
+#noticias button:hover {
+    scale: 1.05;
+}
+
+#cardapio .nav .nav-link.active {
+    background-color: rgb(254, 133, 168);
+    color: white;
+}
+
+#cardapio .nav .nav-link {
+    color: rgb(254, 133, 168);
+}
+
+
+.card {
+    height: 80vh;
+    cursor: pointer;
+}
+
+#cardapio .card {
+    height: 440px;
+    background-color: rgb(254, 133, 168);
+    color: white;
+    margin-bottom: 30px;
+}
+
+#cardapio .card:hover {
+    scale: 1.1;
+}
+
+#cardapio button {
+    width: 100%;
+}
+
+.contato-background {
+    background-color: white;
+    border-radius: 15px;
+}
+
+input {
+    cursor: pointer;
+}
+
+#cardapio button {
+    margin-top: 15px;
+    background-color: white;
+    color: rgb(254, 133, 168);
+    font-weight: bold;
+    border-color: white;
+    border-radius: 10px;
+    padding: 6px 12px;
+}
+
+#cardapio button:hover {
+    scale: 1.02;
+}
+
+.card-tamanho {
+    height: 65%;
+}
+
+.bi.bi-list {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#contato button {
+    margin-top: 15px;
+    background-color: rgb(254, 133, 168);
+    color: white;
+    font-weight: bold;
+    border-color: rgb(254, 133, 168);
+    border-radius: 10px;
+    padding: 6px 12px;
+}
+
+#contato button:hover {
+    background-color: white;
+    color: rgb(254, 133, 168);
+    font-weight: bold;
+    border-color: rgb(254, 133, 168);
+    border-radius: 10px;
+    padding: 6px 12px;
+}
+
+.icons h3 i{
+    color: rgb(254, 133, 168);
+    margin-right: 15px;
+}
+
+.icons a {
+    text-decoration: none;
+}
+
+label {
+    font-size: xx-large;
+}
+
+@media (max-width:767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    #noticias .card {
+        height: 770px;
+    }
+
+    #cardapio .card {
+        height: 650px;
+        text-align: center;
+    }
+
+    #cardapio .card:hover {
+        scale: 1;
+    }
+
+    #cardapio .card h5 {
+        margin-bottom: 15px;
+    }
+
+    #cardapio aside {
+        margin-bottom: 20px;
+    }
+
+    #cardapio .row{
+        display: block;
+        margin: 0 auto;
+    }
+
+    #cardapio .container .row {
+        width: 100%;
+        display: flex !important;
+        flex-wrap: wrap;
+    }
+
+    #contato .col-md-7 {
+        margin-bottom: 40px;
+    }
+
+    #contato button {
+        width: 100%;
+    }
+
+    .contato-direita {
+        text-align: center;
+    }
+}

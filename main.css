@@ -32,6 +32,10 @@ header .container {
     font-family: Pacifico, cursive;
 }
 
+.carousel-item img {
+    width: 100%;
+}
+
 .title-colored {
     color: rgb(254, 133, 168);
 }
@@ -164,6 +168,12 @@ label.error {
     padding: 1px 3px;
     margin-top: 4px;
     border-radius: 5px;
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    .card {
+        height: 60vh;
+    }
 }
 
 @media (max-width:767px) {
